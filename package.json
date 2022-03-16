@@ -1,0 +1,37 @@
+{
+  "name": "remix-with-typescript",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev",
+    "postinstall": "remix setup node",
+    "start": "remix-serve build"
+  },
+  "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "^5.5.1",
+    "@mui/lab": "^5.0.0-alpha.73",
+    "@mui/material": "latest",
+    "@remix-run/react": "latest",
+    "@remix-run/serve": "latest",
+    "date-fns": "^2.28.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-table": "^7.7.0",
+    "remix": "latest"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "sideEffects": false
+}
